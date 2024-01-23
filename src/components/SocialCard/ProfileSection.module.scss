@@ -1,0 +1,33 @@
+@import "../../styles/_variables";
+
+.profileImg {
+  border-radius: 100%;
+  width: 8.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $txt-white;
+  gap: 2.4rem;
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+.profileDetails {
+  text-align: center;
+  h1 {
+    font-size: 2.4rem;
+    color: $txt-white;
+    margin-bottom: 0.4rem;
+  }
+
+  p {
+    color: $neon-green;
+  }
+}
