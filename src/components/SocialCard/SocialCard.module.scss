@@ -6,4 +6,11 @@
   padding: 4rem;
   max-width: 38.4rem;
   max-height: 61.1rem;
+  transition: all 0.1s ease-in;
+}
+
+@media (max-width: 500px) {
+  .socialCard {
+    padding: 2.4rem;
+  }
 }
