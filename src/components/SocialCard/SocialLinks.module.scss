@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  li {
+    width: 100%;
+  }
+
+  a {
+    font-size: 14px;
+    text-decoration: none;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: $txt-white;
+    border-radius: 0.8rem;
+    background-color: $bg-grey;
+    transition: all 0.2s ease-in-out;
+
+    &:hover,
+    &:active {
+      background-color: $neon-green;
+      color: $bg-grey;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+
+    &:active {
+      transform: translateY(1px);
+    }
+  }
+}
