@@ -17,6 +17,7 @@
 
   p {
     font-size: 1.4rem;
+    font-weight: 400;
   }
 }
 
@@ -26,10 +27,12 @@
     font-size: 2.4rem;
     color: $txt-white;
     margin-bottom: 0.4rem;
+    font-weight: 700;
   }
 
   p {
     color: $neon-green;
+    font-weight: 600;
   }
 }
 
